@@ -1,0 +1,45 @@
+body {
+    min-width: 850px;
+    max-width: 850px;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .main-grid {
+    height: 100vh;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .cell-half-width {
+    width: calc(50% - 5px);
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .cell-half-height {
+    height: calc(50% - 5px);
+    object-fit: cover;
+  }
+  
+  .cell-third-height {
+    height: calc((100% - 30px)/4);
+    object-fit: cover;
+    object-position: center;
+  }
+  
